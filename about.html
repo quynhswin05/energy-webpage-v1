@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | Energy Efficient Appliances</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Link JavaScript -->
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+
+    <!-- ===== NAVIGATION MENU ===== -->
+    <header>
+        <nav class="navbar">
+
+            <!-- Logo -->
+            <img 
+                src="images/PowerIcon.png" 
+                alt="Power Logo" 
+                class="logo"
+                onclick="goHome()"
+            >
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li id="nav-home" onclick="navigate('home')">Home</li>
+                <li id="nav-tv" onclick="navigate('televisions')">Televisions</li>
+                <li id="nav-about" onclick="navigate('about')">About Us</li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <h1>About Us</h1>
+
+        <p>
+            This website was created as part of an educational exercise to
+            demonstrate basic web development concepts using HTML, CSS, and
+            JavaScript.
+        </p>
+
+        <p>
+            The content focuses on energy consumption of household appliances
+            in the Australian market, encouraging awareness of energy-efficient
+            purchasing decisions.
+        </p>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>
+            © <span id="year"></span> Quynh Tu Pham Le |
+            GenAI used for assistance in generating code and content
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Energy Efficient Appliances</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Link JavaScript -->
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+
+    <!-- ===== NAVIGATION MENU ===== -->
+    <header>
+        <nav class="navbar">
+
+            <!-- Logo (click returns home) -->
+            <img 
+                src="images/PowerIcon.png" 
+                alt="Power Logo" 
+                class="logo"
+                onclick="goHome()"
+            >
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li id="nav-home" onclick="navigate('home')">Home</li>
+                <li id="nav-tv" onclick="navigate('televisions')">Televisions</li>
+                <li id="nav-about" onclick="navigate('about')">About Us</li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <h1>Home</h1>
+
+        <p>
+            Household appliances contribute significantly to electricity
+            consumption in the Australian market. Choosing energy-efficient
+            appliances helps reduce power bills and lowers environmental impact.
+        </p>
+
+        <p>
+            This website provides basic information about appliance energy
+            consumption, with a focus on televisions and general energy awareness.
+        </p>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>
+            © <span id="year"></span> Quynh Tu Pham Le |
+            GenAI used for assistance in generating code and content.
+        </p>
+    </footer>
+
+</body>
+</html>

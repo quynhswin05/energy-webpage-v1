@@ -1,0 +1,67 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== NAVIGATION BAR ===== */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0a3d62; /* Deep blue */
+    padding: 10px 20px;
+}
+
+/* Logo */
+.logo {
+    height: 45px;
+    cursor: pointer;
+}
+
+/* Navigation list */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    padding: 0;
+}
+
+/* Navigation items */
+.nav-links li {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+/* Mouse-over feedback */
+.nav-links li:hover {
+    background-color: #1e90ff;
+    border-radius: 5px;
+}
+
+/* Current page highlight */
+.nav-links .active {
+    border-bottom: 3px solid #fbc531; /* Yellow accent */
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+    padding: 20px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
